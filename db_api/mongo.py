@@ -1,5 +1,5 @@
 import pymongo
-client = pymongo.MongoClient("mongodb+srv://user:user1234@cluster0.7vyjt.mongodb.net/dbname?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://user:<enter pwd>@<cluster_uri>/dbname?retryWrites=true&w=majority")
 db = client.test
 collection = db.test
 
